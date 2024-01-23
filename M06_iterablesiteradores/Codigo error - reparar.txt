@@ -1,0 +1,15 @@
+lista2 = [1,2,5,7,8,10,13,14,15,17,20]
+
+cont2 = min(lista2)
+
+for i in lista2:
+    if i == cont2:
+        cont2 += 1
+    else:
+        var1 = cont2 - i
+        for j in range(abs(var1)):
+            lista2.append(cont2)
+            cont2 += 1
+            #print(lista2)
+        lista2.sort()
+    print(lista2)
