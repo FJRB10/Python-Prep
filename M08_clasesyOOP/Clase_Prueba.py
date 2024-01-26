@@ -1,10 +1,6 @@
 class Pruebas():
     def __init__(self,lista):
-        if type(lista) == list:
-            self.lista = lista
-            print(lista)
-        else:
-            raise TypeError("Solo se aceptan listas de números enteros")
+        self.lista = lista
 
     def verificarPrimo(self):
         resultado = []
